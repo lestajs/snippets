@@ -1,0 +1,18 @@
+{
+  "Lesta Component Options": {
+    "prefix": "lbase",
+    "body": [
+      "export default {",
+      "\ttemplate: `<div class=\"$1\"></div>`,",
+      "\tnodes() {",
+      "\t\treturn {",
+      "\t\t\t$1:{",
+      "\t\t\t\t$0",
+      "\t\t\t}",
+      "\t\t}",
+      "\t}",
+      "}"
+    ],
+    "description": "Base for component File"
+  }
+}
